@@ -1,0 +1,58 @@
+/* Write CSS Here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(49, 78, 132);
+	padding: 25px;
+	color: white;
+
+}
+.right {
+	position: initial;
+	background-color: rgb(230, 230, 230);
+	padding: 50px;
+
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+}
+.h2 {
+	background-color: rgb(4, 96, 150);
+}
+
+.head1{
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+	color:rgb(5, 142, 221);
+	padding-bottom: 7px;
+}
+.head2{
+	font-size: 9pt;
+	padding-bottom: 5px;
+}
+.text{
+	font-size: 9pt;
+}
